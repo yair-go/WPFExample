@@ -1,0 +1,18 @@
+﻿<Window x:Class="WPFExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Yair WPF Example" Opacity="1" Closed="Window_Closed" >
+    <Grid x:Name="tb2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="257*"/>
+            <ColumnDefinition Width="330*"/>
+            <ColumnDefinition Width="173*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="DataBindigButton" FontSize="20" Content="Data binding" HorizontalAlignment="Left" Margin="38,55,0,0" VerticalAlignment="Top" Width="75" Click="DataBindigButton_Click" MouseEnter="DataBindigButton_MouseMove" MouseLeave="DataBindigButton_MouseLeave"/>
+        <Button x:Name="DataBindigButton2" Content="Data Binding 2" HorizontalAlignment="Left" Margin="38,104,0,0" VerticalAlignment="Top" Width="94" Click="DataBindigButton2_Click"/>
+        <Button x:Name="DataBindigButton1" Content="Data Binding Collection" HorizontalAlignment="Left" Margin="38,146,0,0" VerticalAlignment="Top" Width="139" Click="DataBindigButton1_Click"/>
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" Height="23" Margin="57,246,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"  IsMouseDirectlyOverChanged="tb1_IsMouseDirectlyOverChanged" MouseEnter="tb_MouseMove"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="57,195,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" MouseEnter="tb_MouseMove"/>
+
+    </Grid>
+</Window>
